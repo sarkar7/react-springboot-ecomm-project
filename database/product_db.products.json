@@ -1,0 +1,70 @@
+[{
+  "_id": {
+    "$oid": "64c6921d005e6de41afe19b5"
+  },
+  "type": "book",
+  "title": "Chasm City",
+  "author": "Alastier Reynolds",
+  "lastUpdate": "2023-07-30 22:10:10",
+  "skus": [
+    {
+      "sku": "123456",
+      "isbn": "98536241833",
+      "format": "paperback",
+      "pages": "704",
+      "published": "2003",
+      "price": "750.00"
+    },
+    {
+      "sku": "256483",
+      "isbn": "60936351830",
+      "format": "hardcover",
+      "pages": "704",
+      "published": "2001",
+      "price": "1700.00"
+    }
+  ],
+  "reviews": {
+    "average": 4.4,
+    "count": 26
+  },
+  "categories": [
+    "Science Fiction and Fantasy",
+    "Science Fiction",
+    "Space Opera"
+  ]
+},
+{
+  "_id": {
+    "$oid": "64c69381005e6de41afe19b6"
+  },
+  "type": "book",
+  "title": "Don't Believe Everything You Think (English)",
+  "author": "Joseph Nguyen",
+  "skus": [
+    {
+      "sku": "611656",
+      "isbn": "45869513721",
+      "format": "paperback",
+      "pages": "128",
+      "published": "2014",
+      "price": "149"
+    },
+    {
+      "sku": "985623",
+      "isbn": "78596423157",
+      "format": "hardcover",
+      "pages": "128",
+      "published": "2010",
+      "price": "270"
+    }
+  ],
+  "reviews": {
+    "average": 4.6,
+    "count": 2054
+  },
+  "categories": [
+    "Emotional Self Help"
+  ],
+  "lastUpdate": "2023-07-30 22:10:10"
+}]

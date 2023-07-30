@@ -33,12 +33,13 @@ CREATE SEQUENCE product_item_seq start 1 increment 1;
 
 CREATE TABLE product_item (
 	product_item_id integer NOT NULL DEFAULT nextval('product_item_seq'),
-	product_id integer FOREIGN KEY REFERENCES product(product_id),
+	product_id integer NOT NULL,
 	sku integer NOT NULL,
 	quantity smallint NOT NULL,
 	price number(8,2) NOT NULL,
 	image_url varchar (500) NOT NULL,
 	CONSTRAINT PK_Product_Item PRIMARY KEY (product_item_id, sku)
+	CONSTRAINT FK_Product_Item FOREIGN KEY (product_id) REFERENCES product(product_id)
 );
 
 -- ALTER SEQUENCE product_item_seq OWNED BY product_item.product_item_id;
