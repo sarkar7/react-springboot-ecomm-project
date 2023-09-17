@@ -12,7 +12,6 @@ CREATE TABLE product_category (
 
 -- ALTER SEQUENCE product_category_seq OWNED BY product_category.id;
 
-
 /*    ----- PRODUCT Table -----    */
 CREATE SEQUENCE product_seq start 1 increment 1;
 
@@ -26,7 +25,6 @@ CREATE TABLE product (
 );
 
 -- ALTER SEQUENCE product_seq OWNED BY product.product_id;
-
 
 /*    ----- PRODUCT_ITEM Table -----    */
 CREATE SEQUENCE product_item_seq start 1 increment 1;
